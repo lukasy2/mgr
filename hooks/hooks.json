@@ -1,0 +1,11 @@
+{
+    "last_remote_check": 1515092947,
+    "hooks": {
+        "voyager-polls": {
+            "name": "voyager-polls",
+            "description": "This is my first hook.",
+            "version": "v1.0.2",
+            "enabled": true
+        }
+    }
+}
