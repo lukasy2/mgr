@@ -60,3 +60,17 @@ Route::get('messages', 'ChatsController@fetchMessages');
 Route::post('messages', 'ChatsController@sendMessage');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/poll', function () {
+    return view('poll');
+})->name('poll');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+Route::get('/manual', function () {
+    return view('manual');
+})->name('manual');

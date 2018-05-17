@@ -5,11 +5,7 @@
 
 <?php $displaypoll = setting('site.display_poll') ?>
 			@if( $displaypoll==1)
-			    <div class="alert alert-primary alert-dismissible">
-					<button type="button" class="close" data-dismiss="alert">&times;</button>
-					<strong>Szanowni Państwo</strong> prosimy o wypełnienie ankiety dotyczącej funkcjonowania serwisu.
-					<a href="{{ route('poll') }}" class="alert-link">Przejdź do ankiety</a>.
-				</div>
+			   <poll slug="{{ setting('site.polls_slug') }}"></poll>
 			@endif
 
 
@@ -27,6 +23,10 @@
 
             </div>
         {{ $posts->links("pagination::bootstrap-4") }}
-
+@if( $displaypoll==1)
+@push('scripts')
+<script src="js/app.js"></script>
+@endpush
+@endif
 
 @endsection

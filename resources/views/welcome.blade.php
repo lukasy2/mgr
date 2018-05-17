@@ -124,6 +124,30 @@
                             @endauth
                 @endif
 
+		@guest
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ trans('site.help') }}
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{ route('about') }}">{{ trans('site.about') }}</a>
+                            <a class="dropdown-item" href="{{ route('manual') }}">{{ trans('site.manual') }}</a>
+                        </div>
+                    </li>
+                @endguest
+
+                @auth
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ trans('site.help') }}
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{ route('about') }}">{{ trans('site.about') }}</a>
+                            <a class="dropdown-item" href="{{ route('contact') }}">{{ trans('site.contact') }}</a>
+                            <a class="dropdown-item" href="{{ route('manual') }}">{{ trans('site.manual') }}</a>
+                        </div>
+                    </li>
+                @endauth
 
 
                     <li class="nav-item dropdown">

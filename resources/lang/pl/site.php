@@ -36,5 +36,9 @@ return [
     'administration_panel' => 'Panel administracyjny',
     'no_messages' => 'Brak wiadomości',
     'upload_image' => 'Wczytaj obraz z dysku',
+    'help' => 'Pomoc',
+    'about' => 'O nas',
+    'contact' => 'Kontakt',
+    'manual' => 'Instrukcja obsługi serwisu',
 
 ];

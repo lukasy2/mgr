@@ -36,5 +36,9 @@ return [
     'administration_panel' => 'Administration panel',
     'no_messages' => 'No messages',
     'upload_image' => 'Upload image',
+    'help' => 'Help',
+    'about' => 'About us',
+    'contact' => 'Contact us',
+    'manual' => 'User guide',
 
 ];
