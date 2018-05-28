@@ -73,6 +73,21 @@
                                 </button>
                             </div>
                         </div>
+
+							<div class="form-group{{ $errors->has('terms') ? ' has-error' : '' }}">
+							<input type="checkbox" class="form-control" name="terms" value="1" required>
+
+							  <label for="terms" class="col-md-12 control-label">
+							  {{ trans('site.confirm') }}
+							  </label>
+							  <div class="col-md-12">
+								@if ($errors->has('terms'))
+								 <span class="help-block">
+								   <strong>{{ $errors->first('terms') }}</strong>
+								 </span>
+								@endif
+							  </div>
+						</div>
                     </form>
             </div>
         </div>

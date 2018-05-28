@@ -40,5 +40,6 @@ return [
     'about' => 'About us',
     'contact' => 'Contact us',
     'manual' => 'User guide',
+    'confirm' => 'I agree to have my personal data (name and e-mail) processed for the purposes of realization of the portal’s services.',
 
 ];

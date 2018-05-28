@@ -4,7 +4,7 @@
 
     <div class="container">
         @foreach($announcements as $announcement)
-            <h1 class="mt-5"><a href="{{ route('AnnController.ann', $announcement) }}">{!! $announcement->title !!}</a></h1>
+            <h1 class="mt-5"><a href="{{ route('AnnController.ann', $announcement) }}">{{ $announcement->title }}</a></h1>
             {{ $announcement->short_description }}
         <br />
 

@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-            <h1 class="mt-5">{!! $announcement->title !!}</h1>
+            <h1 class="mt-5">{{ $announcement->title }}</h1>
             {!! $announcement->body !!}
             <br />
             <em>{{ $announcement->created_at }}</em>

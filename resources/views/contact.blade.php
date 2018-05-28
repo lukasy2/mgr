@@ -20,18 +20,18 @@
         </div>
 
         <div class="form-group">
-            {!! Form::label('title', trans('site.title').":") !!}
-            {!! Form::text('title', null, ['class'=>'form-control']) !!}
+            {{ Form::label('title', trans('site.title').":") }}
+            {{ Form::text('title', null, ['class'=>'form-control']) }}
         </div>
 
         <div class="form-group">
-            {!! Form::label('body', trans('site.body').":") !!}
-            {!! Form::textarea('body', null, ['class'=>'form-control']) !!}
+            {{ Form::label('body', trans('site.body').":") }}
+            {{ Form::textarea('body', null, ['class'=>'form-control']) }}
         </div>
 
         <div class="form-group">
-            {!! Form::submit(trans('site.send'), ['class'=>'btn btn-primary']) !!}
-            {!! link_to(URL::previous(), trans('site.back'), ['class' => 'btn btn-default']) !!}
+            {{ Form::submit(trans('site.send'), ['class'=>'btn btn-primary']) }}
+            {{ link_to(URL::previous(), trans('site.back'), ['class' => 'btn btn-default']) }}
         </div>
 
         {!! Form::close() !!}

@@ -4,7 +4,7 @@
     <script>tinymce.init({
         selector:'textarea',
         language:"{{ app()->getLocale() }}",
-        plugins: "code image imagetools media link table autosave hr paste preview",
+        plugins: "code image imagetools link table autosave hr paste preview",
         toolbar : "undo redo | styleselect | bold italic underline removeformat | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent imageupload",
         setup: function(editor) {
     var inp = $('<input id="tinymce-uploader" type="file" name="pic" accept="image/*" style="display:none">');

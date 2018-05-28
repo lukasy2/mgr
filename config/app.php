@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://unikontakt.pl'),
+    'url' => env('APP_URL', 'https://unikontakt.pl'),
 
     /*
     |--------------------------------------------------------------------------

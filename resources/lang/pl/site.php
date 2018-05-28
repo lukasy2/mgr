@@ -40,5 +40,7 @@ return [
     'about' => 'O nas',
     'contact' => 'Kontakt',
     'manual' => 'Instrukcja obsługi serwisu',
+    'confirm' => 'Wyrażam zgodę na przetwarzanie moich danych osobowych (ograniczonych do imienia i adresu e-mail) w celu identyfikacji w systemie. Wyżej podane dane są niezbędne do poprawnego funkcjonowania UniKontakt.pl.  Informujemy, że Państwa zgoda może zostać cofnięta w dowolnym momencie poprzez skontaktowanie się z administratorem (dział Kontakt). Wycofanie zgody będzie skutkowało usunięciem wszystkich danych o użytkowniku z systemu. UniKontakt.pl nie udostępnia nikomu Państwa danych osobowych.',
+
 
 ];

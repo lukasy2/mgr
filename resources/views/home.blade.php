@@ -17,7 +17,7 @@
 			
 
                         @foreach($posts as $post)
-                                <li><h1 class="mt-5"><a href="{{ route('home.post', $post) }}">{!! $post->title !!}</a></h1></li>
+                                <li><h1 class="mt-5"><a href="{{ route('home.post', $post) }}">{{ $post->title }}</a></h1></li>
                                 <li>{!! $post->body !!}</li>
                                 <li><p class="post-meta">{{ $post->created_at }}</p> </li>
                             <hr />
