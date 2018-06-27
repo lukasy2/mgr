@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="google-site-verification" content="9fgQA5jAYelP31IFNELrcSPBRufXI0BdPaimw76U_Xc" />
     <title>{{ setting('site.title') }}</title>
 
     <!-- Bootstrap core CSS -->

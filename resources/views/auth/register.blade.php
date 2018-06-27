@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6 mx-auto">
 
 @if (session('confirmation-success'))
     <div class="alert alert-success">
@@ -75,19 +75,19 @@
                         </div>
 
 							<div class="form-group{{ $errors->has('terms') ? ' has-error' : '' }}">
-							<input type="checkbox" class="form-control" name="terms" value="1" required>
+							                            <div class="col-md-1 mx-auto">
 
+							<input type="checkbox" class="form-control" name="terms" value="1" required>
+</div>
 							  <label for="terms" class="col-md-12 control-label">
 							  {{ trans('site.confirm') }}
 							  </label>
-							  <div class="col-md-12">
 								@if ($errors->has('terms'))
 								 <span class="help-block">
 								   <strong>{{ $errors->first('terms') }}</strong>
 								 </span>
 								@endif
-							  </div>
-						</div>
+							</div>
                     </form>
             </div>
         </div>

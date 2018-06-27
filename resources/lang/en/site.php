@@ -41,5 +41,7 @@ return [
     'contact' => 'Contact us',
     'manual' => 'User guide',
     'confirm' => 'I agree to have my personal data (name and e-mail) processed for the purposes of realization of the portal’s services.',
-
+    'reset_password' => 'Resetowanie hasła',
+    'send_password_reset_link' => 'Wyślij link resetowania hasła',
+	
 ];

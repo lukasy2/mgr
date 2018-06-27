@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Podane dane sa nieprawidlowe.',
-    'throttle' => 'Zbyt wiele prob logowania, sproboj ponownie za :seconds seconds.',
+    'failed' => 'Dane nie pasują do żadnego z użytkowników naszej bazy.',
+    'throttle' => 'Zbyt wiele prób logowania. Spróbuj ponownie za :seconds seconds.',
 
 ];

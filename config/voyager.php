@@ -159,6 +159,12 @@ return [
                 'icon_class'   => 'voyager-home',
                 'target_blank' => true,
             ],
+            'Manual' => [
+                'route'        => 'https://drive.google.com/file/d/1jQ25yAN0Z6oB1yQ8GTTdpl1MeCKNvgg-/view?usp=sharing',
+                'icon_class'   => 'voyager-question',
+                'target_blank' => true,
+            ],
+
             'Logout' => [
                 'route'      => 'voyager.logout',
                 'icon_class' => 'voyager-power',
