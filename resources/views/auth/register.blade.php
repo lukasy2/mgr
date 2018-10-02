@@ -11,7 +11,7 @@
     </div>
 @endif
 
-                <h1 class="mt-5">{{ trans('site.sign_up') }}</h1>
+                <h2 class="mt-1">{{ trans('site.sign_up') }}</h2>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
